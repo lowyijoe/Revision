@@ -1,4 +1,3 @@
-# Sum up the terms
 #include<iostream>
 using namespace std;
 
@@ -10,6 +9,7 @@ int sum(int n)
     {
         sum=sum+n;
         n--;
+
     }while(n>0);
 
     return sum;
@@ -20,18 +20,25 @@ int sum(int n)
 {
     int sum = 0;
     for(int i=n; i>0; i--)
+    {
         sum=sum+i;
-        
+    }
+
     return sum;
 }
 
 //recursive function
 int sum(int n)
 {
+
     if (n==1)
+    {
         return 1;
+    }
     else
+    {
         return n+sum(n-1);
+    }
 }
 
 //no loop & no recursion
@@ -48,4 +55,3 @@ int main()
 
     return 0;
 }
-
