@@ -3,6 +3,7 @@
 using namespace std;
 
 //do while loop
+
 int sum(int n)
 {
     int sum=0;
@@ -17,6 +18,7 @@ int sum(int n)
 }
 
 //for loop
+
 int sum(int n)
 {
     int sum = 0;
@@ -29,6 +31,7 @@ int sum(int n)
 }
 
 //recursive function
+
 int sum(int n)
 {
 
@@ -43,6 +46,7 @@ int sum(int n)
 }
 
 //no loop & no recursion
+
 int sum(int n)
 {
     int sum=0;
