@@ -3,7 +3,6 @@
 using namespace std;
 
 //do while loop
-
 int sum(int n)
 {
     int sum=0;
@@ -11,42 +10,31 @@ int sum(int n)
     {
         sum=sum+n;
         n--;
-
     }while(n>0);
 
     return sum;
 }
 
 //for loop
-
 int sum(int n)
 {
     int sum = 0;
     for(int i=n; i>0; i--)
-    {
         sum=sum+i;
-    }
-
+        
     return sum;
 }
 
 //recursive function
-
 int sum(int n)
 {
-
     if (n==1)
-    {
         return 1;
-    }
     else
-    {
         return n+sum(n-1);
-    }
 }
 
 //no loop & no recursion
-
 int sum(int n)
 {
     int sum=0;
